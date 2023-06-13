@@ -151,7 +151,7 @@ span[data-descr]:hover::after {
   }
 
 h2, #facts{
-    font-size: 40px;
+    font-size: 28px;
     color:#80e012;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 400;
@@ -192,7 +192,7 @@ footer {
     
 }
 
-@media (max-width: 468px) {
+@media (max-width: 595px) {
     .main-header,ul.topbot li,
     header {
       font-size: 10px;
@@ -202,13 +202,19 @@ footer {
     .text-container #facts,h2  {
       font-size: 10px;
     } 
+    aside{
+      font-size: 21.5px;
+    } 
 
     div.mono {
       margin: 2em;
+      font-size:10px;
     }
   
     #proton {
       height: 15em;
     }
+
+    
 }
 
