@@ -37,6 +37,7 @@ ul.topbot li {
     color: #fff;
     text-decoration: underline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
 }
 
 h1.hello{
@@ -75,7 +76,7 @@ div.mono{
     position: absolute;
     font-size: 30px;
     top: 35%;
-    left: 6%;
+    left: 20%;
     transform: translate(-50%, -50%);
     z-index: 1;
     background-color: rgba(1, 9, 11, 0.8);
@@ -109,12 +110,6 @@ span[data-descr]:hover::after {
     flex: 1 0 0;
     text-align:right;
 }
-
-.holographics img, .text-container{
-
-
-}
-
 
 .text-container {
     display: flex;
@@ -197,13 +192,17 @@ footer {
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 468px) {
     .main-header,ul.topbot li,
     header {
-      flex-direction: column;  
-      font-size: 20px;
+      font-size: 10px;
+      margin: 0;
+      padding: 1px;
     }
-  
+    .text-container #facts,h2  {
+      font-size: 10px;
+    } 
+
     div.mono {
       margin: 2em;
     }
