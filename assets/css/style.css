@@ -9,7 +9,8 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    font-size: 25px; 
+    font-size: 30px; 
+    font-family:'Courier New', Courier, monospace;
     
 }
 
@@ -21,7 +22,8 @@ header{
     background: #141418;
     color: #fff;
     line-height: 1; 
-    
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
 }
 
 
@@ -39,7 +41,6 @@ ul.topbot li {
     margin-right: 10px;
     color: #fff;
     text-decoration: underline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: right;
 }
 
@@ -47,27 +48,14 @@ h1.hello{
     text-align: center;
     line-height: 2.5;
     color:#fff;
-    font-size: 40px;
-    
-}
-
-div.mono{
-    flex-direction: left;
-    text-align: justify;
-    margin: 4em 8em;
-    border: 5px dashed rgb(7, 240, 30); 
-    color:rgb(69, 211, 211);
-    line-height: 1.5;
-    font-style: italic;
-    font-size: 18px;
-
+    font-size: 40px;  
 }
 
 
 #proton {
     flex: 1;
     width: 100%;
-    height: 20em;
+    height: 10em;
     object-fit: cover;
     border-style: solid;
     border-width: 1px;
@@ -77,9 +65,9 @@ div.mono{
 
 #mamba {
     position: absolute;
-    font-size: 30px;
-    top: 35%;
-    left: 20%;
+    font-size: 25px;
+    top: 18%;
+    left: 30%;
     transform: translate(-50%, -50%);
     z-index: 1;
     background-color: rgba(1, 9, 11, 0.8);
@@ -106,6 +94,21 @@ span[data-descr]:hover::after {
    font-size: 80%;
    z-index: 1;
 }
+
+
+.avatar {
+    width: 25%;
+    min-width: 70px;
+    height: auto;
+    border: thick dashed rgb(24, 188, 217);
+    padding: 1px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+} 
+
 
 .holographics {   
    display:flex;
@@ -169,18 +172,26 @@ aside {
     justify-content: space-between;
     align-items: center;
     margin-left: 0%;
-    font-size: 30px;
-    line-height: 20;
+    line-height: 5;
     position: absolute;
-    top: 50%;
+    top: 43%;
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: 50%;
+    width: 35%;
     text-decoration: double;
     color:#fff;
     border: 5px dashed rgb(7, 240, 30); 
-    border-bottom: 10px;
     margin-top: 8em;
+    font-style: italic;
+}
+
+
+#work{
+    margin-top: 100%; 
+}
+
+#contact {
+    margin-top: 88%; 
 }
 
 footer {
@@ -194,29 +205,51 @@ footer {
     display: inline;
     margin-left: 0;
     font-size: 25px; 
+    font-style: italic;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 720px) {
     .main-header,ul.topbot li,
-    header  {
-      font-size: 10px;
+    header {
+      font-size: 30px;
+      font-family:'Courier New', Courier, monospace;
       margin: 0;
       padding: 1px;
+    
     }
+
+    .avatar{
+        width: 20%;
+        top: 45%;
+    }
+
+    #about{ 
+      margin-top: 10%;  
+      font-size: 30px;      
+    }
+    
+    #work{
+      margin-top: 70%;
+      font-size: 30px
+    }
+    
+    #contact{
+      margin-top: 65%;
+      font-size: 30px;
+    }
+    
     .text-container #facts,h2  {
-      font-size: 10px;
+      font-size: 18px;
     } 
+    
     aside, .info-item{
-      font-size: 10px;
+      font-size: 18px;
+      margin-top: 20%;
+      font-style: italic;
     } 
 
-    div.mono {
-      margin: 2em;
-      font-size:10px;
-    }
-  
     #proton {
-      height: 15em;
+      height: 10em;
     }
 
     
