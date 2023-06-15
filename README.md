@@ -20,6 +20,7 @@ https://rrciii.github.io/Working_Portfolio/
 
 *** Screenshot of Deployed Application *** 
 
+![Working_Portfolio](https://github.com/RRCIII/Working_Portfolio/assets/132403132/f7dffa47-eac1-46a8-a481-079db19fae1d)
 
 
 
