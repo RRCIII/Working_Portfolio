@@ -1,10 +1,10 @@
-Working_Portfolio 
+Working_Portfolio
 
 Working_Porfoilio is a professional portfolio created by Ricky Carter.
 
-Purpose:
+**_ Purpose _**
 
-The purpose of this project is to present a professional portfolio to showcase my uderstanding and skill set. The portfolio includes the following:
+The purpose of this project is to present a professional portfolio to showcase my understanding and skill set. The portfolio includes the following:
 
 1.My name
 2.My photo/Avatar
@@ -12,14 +12,12 @@ The purpose of this project is to present a professional portfolio to showcase m
 4.Links to my current and future work
 5.Contact information
 
-License: 
- 
+**_ License _**
 Please refer to license in the REP.
 
+Link to deployed application:
+https://rrciii.github.io/Working_Portfolio/
 
- Link to deployed application: 
+**_ Screenshot of Deployed Application _**
 
-https://rrciii.github.io/Working_Portfolio/ 
-
-Screenshot of Deployed Application:
-
+![Working_Portfolio](https://github.com/RRCIII/Working_Portfolio/assets/132403132/f7dffa47-eac1-46a8-a481-079db19fae1d)
