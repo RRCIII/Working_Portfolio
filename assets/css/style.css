@@ -176,6 +176,22 @@ span[data-descr]:hover::after {
     color: #fff; /* Set a different text color on hover */
   }
 
+  .React_Group_Project {
+    position: absolute;
+    top: 70%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background-color: #198ad4; /* Set your desired background color for the link */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    color: #e8ecf0; /* Set the text color for the link */
+    text-decoration: none;
+  }
+
+  .React_Group_Project:hover {
+    background-color: #0056b3; /* Set a different background color on hover */
+    color: #fff; /* Set a different text color on hover */
+  }
+
 h2, #facts{
     font-size: 28px;
     color:#80e012;
